@@ -60,7 +60,7 @@ body
     
 .input-space
 {
-    top: 180px;
+    top: 120px;
     position: absolute;
     width: 280px;
     transition: 0.5s;
@@ -70,7 +70,7 @@ body
 {
     width: 100%;
     padding: 10px 0px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 13%;
     border-left: 0px;
     border-right: 0px;
@@ -87,11 +87,74 @@ body
     cursor: pointer;
     display: block;
     margin-left: 23%;
-    margin-top: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255, 0.9);
+    background: linear-gradient(to right, rgb(37, 2, 134, 0.95), rgb(49, 90, 179, 0.95), rgb(37, 2, 134, 0.95));
+    outline: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.submit-button:hover
+{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 23%;
+    margin-top: 50px;
     color: rgb(255, 255, 255, 0.9);
     background: linear-gradient(to right, rgb(37, 2, 134), rgb(49, 90, 179), rgb(37, 2, 134));
     outline: none;
     border-radius: 30px;
+}
+
+.check-box
+{
+    position: absolute;
+    margin: 20px 10px 30px 2px;
+}
+
+span
+{
+    color:rgba(68, 63, 63, 0.8);
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    left: 25px;
+    bottom: 37px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+#acc
+{
+    color:rgba(68, 63, 63, 0.8);
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    left: 25px;
+    bottom: 37px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.su-button
+{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(41, 27, 78, 0.8);
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.su-button:hover
+{
+    box-shadow: 0 0 2px 2px rgba(105, 105, 107, 0.5);
 }
 
 #login
