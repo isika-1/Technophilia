@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./signup.css">
+        <title>Sign-up</title>
+        <script src="https://kit.fontawesome.com/8ac0036aeb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="form-box">
+                <div id="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-button" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-button" onclick="signup()">Sign Up</button>
+                </div>
+                <form id="login" class="input-space">
+                    <input type="text" class="input-field" placeholder="Enter your user id" required>
+                    <input type="password" class="input-field" placeholder="Enter your password" required>
+                    <button type="submit" class="submit-button">Log In</button>
+                </form>
+                <form id="signup" class="input-space">
+                    <input type="text" class="input-field" placeholder="Enter your user id" required>
+                    <input type="email" class="input-field" placeholder="Enter your e-mail id" required>
+                    <input type="password" class="input-field" placeholder="Enter your password" required>
+                    <button type="submit" class="submit-button">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("signup");
+            var z = document.getElementById("btn");
+
+            function signup()
+            {
+                x.style.left = "-400px";
+                y.style.left = "5px";
+                z.style.left = "110px";
+            }
+
+            function login()
+            {
+                x.style.left = "5px";
+                y.style.left = "400px";
+                z.style.left = "0px";
+            }
+        </script>
+    </body>
+</html>
